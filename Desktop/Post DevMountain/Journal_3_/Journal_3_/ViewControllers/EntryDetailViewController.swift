@@ -29,6 +29,7 @@ class EntryDetailViewController: UIViewController {
         } else {
             EntryController.shared.addNewEntryWith(title: title, andBody: body)
         }
+        navigationController?.popViewController(animated: true)
     }
     
     // MARK: -  Update Views
