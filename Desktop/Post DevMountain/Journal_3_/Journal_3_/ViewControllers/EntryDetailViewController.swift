@@ -21,6 +21,16 @@ class EntryDetailViewController: UIViewController {
         updateViews()
     }
     
+    // MARK: -  Actions
+    @IBAction func saveButtonTapped(_ sender: Any) {
+        guard let title = titleTextField.text, let body = bodyTextView.text else { return }
+        if entry != nil {
+            EntryController.shared.update(entry: entry!, newTitle: title, newBody: body)
+        } else {
+            EntryController.shared.addNewEntryWith(title: title, andBody: body)
+        }
+    }
+    
     // MARK: -  Update Views
     func updateViews() {
         if entry != nil {
