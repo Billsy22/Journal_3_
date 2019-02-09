@@ -64,7 +64,30 @@
                     <view key="view" contentMode="scaleToFill" id="Yko-1v-uyh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OKd-Wx-qLU">
+                                <rect key="frame" x="19" y="99" width="337.5" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DIp-ez-GJv">
+                                <rect key="frame" x="19" y="164" width="337.5" height="468"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="DIp-ez-GJv" firstAttribute="width" secondItem="OKd-Wx-qLU" secondAttribute="width" id="0z4-Z0-ven"/>
+                            <constraint firstItem="OKd-Wx-qLU" firstAttribute="top" secondItem="jXq-Eu-QFA" secondAttribute="top" constant="35" id="39v-RX-O1N"/>
+                            <constraint firstItem="OKd-Wx-qLU" firstAttribute="width" secondItem="Yko-1v-uyh" secondAttribute="width" multiplier="0.9" id="IXy-CM-fP5"/>
+                            <constraint firstItem="DIp-ez-GJv" firstAttribute="centerX" secondItem="Yko-1v-uyh" secondAttribute="centerX" id="UF8-pw-pNA"/>
+                            <constraint firstItem="DIp-ez-GJv" firstAttribute="top" secondItem="OKd-Wx-qLU" secondAttribute="bottom" constant="35" id="bbF-5e-xzd"/>
+                            <constraint firstItem="jXq-Eu-QFA" firstAttribute="bottom" secondItem="DIp-ez-GJv" secondAttribute="bottom" constant="35" id="dvL-i2-SWy"/>
+                            <constraint firstItem="OKd-Wx-qLU" firstAttribute="centerX" secondItem="Yko-1v-uyh" secondAttribute="centerX" id="tZX-0u-xb3"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="jXq-Eu-QFA"/>
                     </view>
                     <navigationItem key="navigationItem" id="OS4-Ib-5kx">
