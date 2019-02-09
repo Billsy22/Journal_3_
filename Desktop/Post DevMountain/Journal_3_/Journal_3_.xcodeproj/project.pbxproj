@@ -12,6 +12,7 @@
 		16F70A8C220F90120070FB24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16F70A8B220F90120070FB24 /* Assets.xcassets */; };
 		16F70A8F220F90120070FB24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F70A8D220F90120070FB24 /* LaunchScreen.storyboard */; };
 		16F70A9C220F936F0070FB24 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F70A9B220F936F0070FB24 /* Entry.swift */; };
+		16F70A9E220F94790070FB24 /* EntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F70A9D220F94790070FB24 /* EntryController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		16F70A8E220F90120070FB24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16F70A90220F90120070FB24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16F70A9B220F936F0070FB24 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		16F70A9D220F94790070FB24 /* EntryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		16F70A99220F92B20070FB24 /* Model Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				16F70A9D220F94790070FB24 /* EntryController.swift */,
 			);
 			path = "Model Controllers";
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16F70A9E220F94790070FB24 /* EntryController.swift in Sources */,
 				16F70A9C220F936F0070FB24 /* Entry.swift in Sources */,
 				16F70A85220F90110070FB24 /* AppDelegate.swift in Sources */,
 			);
