@@ -14,6 +14,8 @@
 		16F70A9C220F936F0070FB24 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F70A9B220F936F0070FB24 /* Entry.swift */; };
 		16F70A9E220F94790070FB24 /* EntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F70A9D220F94790070FB24 /* EntryController.swift */; };
 		16F70AA0220F98200070FB24 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F70A9F220F98200070FB24 /* Constants.swift */; };
+		16F70AA2220F9A680070FB24 /* EntryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F70AA1220F9A680070FB24 /* EntryDetailViewController.swift */; };
+		16F70AA4220F9A780070FB24 /* EntryListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F70AA3220F9A780070FB24 /* EntryListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		16F70A9B220F936F0070FB24 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 		16F70A9D220F94790070FB24 /* EntryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryController.swift; sourceTree = "<group>"; };
 		16F70A9F220F98200070FB24 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		16F70AA1220F9A680070FB24 /* EntryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryDetailViewController.swift; sourceTree = "<group>"; };
+		16F70AA3220F9A780070FB24 /* EntryListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		16F70A98220F92AA0070FB24 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				16F70AA1220F9A680070FB24 /* EntryDetailViewController.swift */,
+				16F70AA3220F9A780070FB24 /* EntryListTableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -183,7 +189,9 @@
 			files = (
 				16F70A9E220F94790070FB24 /* EntryController.swift in Sources */,
 				16F70A9C220F936F0070FB24 /* Entry.swift in Sources */,
+				16F70AA4220F9A780070FB24 /* EntryListTableViewController.swift in Sources */,
 				16F70A85220F90110070FB24 /* AppDelegate.swift in Sources */,
+				16F70AA2220F9A680070FB24 /* EntryDetailViewController.swift in Sources */,
 				16F70AA0220F98200070FB24 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
