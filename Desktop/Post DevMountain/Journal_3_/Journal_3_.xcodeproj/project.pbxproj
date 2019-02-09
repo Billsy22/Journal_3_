@@ -13,6 +13,7 @@
 		16F70A8F220F90120070FB24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F70A8D220F90120070FB24 /* LaunchScreen.storyboard */; };
 		16F70A9C220F936F0070FB24 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F70A9B220F936F0070FB24 /* Entry.swift */; };
 		16F70A9E220F94790070FB24 /* EntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F70A9D220F94790070FB24 /* EntryController.swift */; };
+		16F70AA0220F98200070FB24 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F70A9F220F98200070FB24 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		16F70A90220F90120070FB24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16F70A9B220F936F0070FB24 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 		16F70A9D220F94790070FB24 /* EntryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryController.swift; sourceTree = "<group>"; };
+		16F70A9F220F98200070FB24 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +58,10 @@
 		16F70A83220F90110070FB24 /* Journal_3_ */ = {
 			isa = PBXGroup;
 			children = (
+				16F70A97220F92880070FB24 /* Resources */,
 				16F70A9A220F92BC0070FB24 /* Models */,
 				16F70A99220F92B20070FB24 /* Model Controllers */,
 				16F70A98220F92AA0070FB24 /* ViewControllers */,
-				16F70A97220F92880070FB24 /* Resources */,
 				16F70A96220F927D0070FB24 /* Storyboards */,
 			);
 			path = Journal_3_;
@@ -80,6 +82,7 @@
 				16F70A84220F90110070FB24 /* AppDelegate.swift */,
 				16F70A8B220F90120070FB24 /* Assets.xcassets */,
 				16F70A90220F90120070FB24 /* Info.plist */,
+				16F70A9F220F98200070FB24 /* Constants.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				16F70A9E220F94790070FB24 /* EntryController.swift in Sources */,
 				16F70A9C220F936F0070FB24 /* Entry.swift in Sources */,
 				16F70A85220F90110070FB24 /* AppDelegate.swift in Sources */,
+				16F70AA0220F98200070FB24 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

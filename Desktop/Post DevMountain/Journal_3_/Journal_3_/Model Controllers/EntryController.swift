@@ -11,6 +11,7 @@ import Foundation
 class EntryController {
     
     // MARK: -  Properties
+    /// Singleton for EntryController
     static let shared = EntryController()
     var entries: [Entry] = []
     
@@ -20,18 +21,21 @@ class EntryController {
     }
     
     // MARK: -  CRUD Functions
+    /// Adds a new Entry object to your Journal
     func addNewEntryWith(title: String, andBody body: String) {
         let newEntry = Entry(title: title, body: body)
         self.entries.insert(newEntry, at: 0)
         saveToPersistence()
     }
     
+    /// Removes a swiped/selected Entry object from your Journal
     func remove(entry: Entry) {
         guard let index = self.entries.index(of: entry) else { return }
         entries.remove(at: index)
         saveToPersistence()
     }
     
+    /// Update a modified existing Entry object in your Journal
     func update(entry: Entry, newTitle: String, newBody: String) {
         entry.title = newTitle
         entry.body = newBody
@@ -39,7 +43,7 @@ class EntryController {
     }
     
     // MARK: -  JSON Persistence using codable
-    //Save Location
+    /// Save Location in device
     func fileURL() -> URL {
         let paths = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
         let documentDirectory = paths[0]
@@ -48,7 +52,7 @@ class EntryController {
         return url
     }
     
-    // Save Files
+    /// Save Files to device
     func saveToPersistence() {
         let jsonEncoder = JSONEncoder()
         do {
@@ -59,7 +63,7 @@ class EntryController {
         }
     }
     
-    // Load Files
+    /// Load Files from device
     func loadFromPersistentStorage() {
         let jsonDecoder = JSONDecoder()
         do {
